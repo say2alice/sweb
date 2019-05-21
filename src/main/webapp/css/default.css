@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 반드시 들어가야 하는 스타일 시작 */
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);      */
+/*@import url(http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb); */
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+/* Clear Style */
+body {width:100%;margin:0;padding:0;background-color:#f3f3f3;}
+/*body,form,div,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,pre,fieldset,input,blockquote,th,td{font:normal 14px/1.25em 'Nanum Gothic', sans-serif,AppleGothic, DroidSansFallback,dotum,돋움;color:#444;letter-spacing:-1px;-webkit-text-size-adjust:none;margin:0px;padding:0px}*/
+/*body,form,div,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,pre,fieldset,input,blockquote,th,td{font-family: 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum;color:#444;letter-spacing:-1px;-webkit-text-size-adjust:none;margin:0px;padding:0px}*/
+
+body,form,div,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,pre,fieldset,input,blockquote,th,td{font-family: '맑은 고딕','Malgun Gothic',나눔고딕,돋움,Dotum,굴림,Gulim,'Apple SD Gothic Neo',sans-serif;color:#444;letter-spacing:-1.5px;-webkit-text-size-adjust:none;margin:0px;padding:0px}
+
+em,cite,address{font-style:normal}
+ol, ul, li {margin:0;border:0;padding:0;list-style:none}
+dd {margin-left:5px}
+table {width:100%;border-collapse:collapse;table-layout:fixed;margin:0;padding:0;border:0;border-spacing:0;background-color:#fff;}
+th, td {margin:0;padding:0;border-spacing:0;text-align:center;}
+img {border:0 none;vertical-align:middle}
+object,embed{vertical-align:top}
+
+/* Form Style */
+form {display:block;margin: 0;padding:0;border:none}
+fieldset {margin:0px;padding:0px;border:none}
+legend, caption {width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden}
+input, select, textarea {font-family:inherit;font-size:inherit;line-height:inherit;}
+input.txt, input.pwd {_margin:-1px 0;}
+input.radio, input.check {position:relative;top:-1px;_top:0;width:13px;height:13px;overflow:hidden;}
+input.check {top:0px;_top:1px;}
+select {border:1px solid #bbb;}
+textarea {padding:5px;border:1px solid #bbb;}
+
+/* Link Style */
+a:link, a:visited {color:inherit;text-decoration:none;text-overflow:ellipsis;-o-text-overflow:ellipsis}
+a:hover, a:active, a:focus {text-decoration:none}
+
+/* Reserve */
+.clear {clear:both;height:0;font-size:0;line-height:0}
+.ir {overflow:hidden;text-indent:-1000em}
+.hide {visibility:hidden;width:0;height:0;font-size:0;line-height:0;overflow:hidden;position:absolute;top:-1000em;left:-1000em}
+.bgn {background:none !important}
+.brn {border-bottom:none !important}
+.m0 {margin:0px !important}
+.p10 {padding:10px;background: #fff}
+.ac {text-align:center !important;}
+.al {text-align:left !important;}
+.ar {text-align:right !important;}
+
+.mg10{margin:10px;}
+.mgb20{margin-bottom:20px;}
+.mgt20{margin-top:20px;}
+.mgt25{margin-top:25px;}
+.mgt30{margin-top:30px;}
+.gray{color:#848484;}
+.mgr15{margin-right:15px;}
+.mgr14{margin-right:14px;}
+.mgr13{margin-right:10px;}
+.mgr13:last-child{margin:0}
+.mgr14:last-child{margin:0}
+.mgt10{margin-top:10px;}
+
+.pgb20{padding-bottom:20px !important;}
+.pgb40{padding-bottom:40px !important;}
+
+.bd0{border: 0px !important;}
+.mgt15{margin-top:15px;}
+#wrap{
+	width:100%;
+	font-family: NanumGothic;
+}
+.error{text-align: center; top:35%;position: relative}
+.error p{padding:40px;font-size:50px; font-weight: bold}
+.error a{padding:20px;font-size:22px; font-weight: bold; color:#4267b2}

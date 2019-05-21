@@ -1,0 +1,22 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+
+    <cache name="newsList"
+           maxElementsInMemory="1000"
+           eternal="false"
+           overflowToDisk="false"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="120"
+           diskPersistent="false"
+           memoryStoreEvictionPolicy="LFU" />
+
+    <cache name="news"
+           maxElementsInMemory="1000"
+           eternal="false"
+           overflowToDisk="false"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="120"
+           diskPersistent="false"
+           memoryStoreEvictionPolicy="LFU" />
+
+</ehcache>
